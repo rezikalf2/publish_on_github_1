@@ -1,0 +1,137 @@
+/**********Basic Settings************/
+@font-face {
+    font-family: Wisdom;
+    src: url('R:/second_project/fonts/thirsty-script-extrabold-demo/ThirstyScriptExtraBoldDemo.otf') format('opentype');
+    }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***************Grid*****************/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+    
+
+}
+
+.third-width {
+    width: 398px;
+    float: left;
+}
+
+/*******Header********/
+header {
+    height: 110px;
+}
+nav {
+    float: right; 
+    padding: 50px 0;
+
+}
+
+nav ul {
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+a {
+    color: #b6cead;
+}
+
+header h1 {
+    margin: 0px;
+    font-size: 30px;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+/************Main************/
+main #gallery img {
+    border: 3px solid #77a466;
+}
+
+main #about h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #77a466;
+}
+
+main #about p {
+    font-size: 16px;
+}
+
+#menu, #contacts, #reviews {
+    height: 210px;
+        
+}
+
+#reviews {
+    border: 1px solid rgb(206, 204, 204);
+    
+}
+
+#menu, #contacts {
+    border-top: 1px solid rgb(206, 204, 204);
+    border-bottom: 1px solid rgb(206, 204, 204);
+}
+
+main #details h3 {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-bottom: 33px;
+    padding-left: 15px;
+}
+
+main #menu h2 {
+    color: #c0d5b8;
+    margin-bottom: 25px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+main #reviews p {
+    font-size: 16px;
+    width: 320px;
+    padding-left: 15px;
+}
+
+main #contacts p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 15px;
+}
+
+/************Footer***********/
+footer {
+    clear: both;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+footer h2 span {
+    font-family: Wisdom;
+    color: #92b685;
+}
